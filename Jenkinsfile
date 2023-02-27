@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout code') {
       steps {
-        git(url: 'https://github.com/mingjm3/CI-CD-demo', branch: 'master')
+        git(url: 'git@github.com:mingjm3/CI-CD-demo.git', branch: 'master')
       }
     }
 
